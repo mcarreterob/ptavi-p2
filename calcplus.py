@@ -40,8 +40,8 @@ for line in operaciones:
             print(resultado)
 
         elif operacion == 'divide':
-            # Al igual que en la resta, inicio el resultado al primer elemento
-            # de la lista(el mas mayor)
+            # Al igual que en la resta, inicio el resultado al primer
+            # elemento de la lista(el mas mayor)
             resultado = elements.pop(0)
             for operando in elements:
                 try:
