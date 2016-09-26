@@ -10,16 +10,16 @@ calculator = calcoohija.CalculadoraHija()
 
 for line in operaciones:
     # crea una lista con los elementos del fichero separados por comas
-    elements=line.split(',')
+    elements = line.split(',')
     # .pop(0) devuelve el primer elemento de la lista y lo borra,
     # quedando solo los operandos
-    operacion=elements.pop(0)
+    operacion = elements.pop(0)
     try:
         if operacion == 'suma':
             # hay que inicializar el resultado, al ser una suma, a 0 vale
             resultado = 0
             for operando in elements:
-            # por cada elemento de la lista suma lo que ya lleva mas el elemento
+                # por cada elemento de la lista suma lo que ya lleva mas el elemento
                 resultado = resultado + calculator.plus(int(operando), 0)
             print(resultado)
 
@@ -56,6 +56,6 @@ for line in operaciones:
             sys.exit('Incorrect operation')
 
     except ValueError:
-        sys.exit('Error: Non numerical parameters') 
+        sys.exit('Error: Non numerical parameters')
 
 fich.close()

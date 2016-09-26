@@ -11,11 +11,13 @@ def plus(op1, op2):
 
 def minus(op1, op2):
     """ Function to substract the operands """
-    return op1 - op2    
+    return op1 - op2
+
 
 def product(op1, op2):
     """Function to multiplicate the operands"""
-    return op1 * op2	
+    return op1 * op2
+
 
 def division(op1, op2):
     """Function to divide the operands"""

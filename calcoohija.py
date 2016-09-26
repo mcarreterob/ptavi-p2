@@ -4,8 +4,8 @@
 import sys
 import calcoo
 
-class CalculadoraHija(calcoo.Calculadora):
 
+class CalculadoraHija(calcoo.Calculadora):
 
     def product(self, op1, op2):
         return op1 * op2
