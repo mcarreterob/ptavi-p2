@@ -19,7 +19,8 @@ for line in operaciones:
             # hay que inicializar el resultado, al ser una suma, a 0 vale
             resultado = 0
             for operando in elements:
-                # por cada elemento de la lista suma lo que ya lleva mas el elemento
+                # por cada elemento de la lista suma lo que ya lleva mas 
+                # el elemento
                 resultado = resultado + calculator.plus(int(operando), 0)
             print(resultado)
 
